@@ -3,6 +3,7 @@ import { FC } from "react";
 import { SelectableContainer } from "../selectable-container";
 
 export interface StageProps {
+  id: string;
   children?: React.ReactNode;
   selected?: boolean;
   onSelect?(): void;
